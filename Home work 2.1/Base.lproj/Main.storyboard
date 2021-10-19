@@ -16,27 +16,26 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="i9j-Av-MNt">
-                                <rect key="frame" x="10" y="54" width="394" height="798"/>
-                                <subviews>
-                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="NyF-AG-Qkn">
-                                        <rect key="frame" x="0.0" y="0.0" width="394" height="394"/>
-                                        <color key="backgroundColor" systemColor="systemGreenColor"/>
-                                    </view>
-                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="i0F-v5-rms">
-                                        <rect key="frame" x="0.0" y="404" width="394" height="394"/>
-                                        <color key="backgroundColor" systemColor="systemRedColor"/>
-                                    </view>
-                                </subviews>
-                            </stackView>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="msp-gE-6Y4">
+                                <rect key="frame" x="20" y="54" width="374" height="389.5"/>
+                                <color key="backgroundColor" systemColor="systemGreenColor"/>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="whU-nD-N9n">
+                                <rect key="frame" x="20" y="463.5" width="374" height="408.5"/>
+                                <color key="backgroundColor" systemColor="systemRedColor"/>
+                            </view>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="i9j-Av-MNt" secondAttribute="trailing" constant="10" id="Tbe-BK-KOz"/>
-                            <constraint firstItem="i9j-Av-MNt" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="10" id="hAf-77-RWE"/>
-                            <constraint firstItem="i9j-Av-MNt" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="10" id="qR0-Zi-Kfo"/>
-                            <constraint firstAttribute="bottomMargin" secondItem="i9j-Av-MNt" secondAttribute="bottom" constant="10" id="qwB-eg-RaS"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="whU-nD-N9n" secondAttribute="trailing" constant="20" id="2At-d9-Jvz"/>
+                            <constraint firstItem="whU-nD-N9n" firstAttribute="bottom" secondItem="6Tk-OE-BBY" secondAttribute="bottom" constant="10" id="3NR-jq-QVo"/>
+                            <constraint firstItem="msp-gE-6Y4" firstAttribute="height" secondItem="whU-nD-N9n" secondAttribute="height" multiplier="0.954315" id="4bF-Bd-LYB"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="msp-gE-6Y4" secondAttribute="trailing" constant="20" id="HnE-no-T0c"/>
+                            <constraint firstItem="whU-nD-N9n" firstAttribute="top" secondItem="msp-gE-6Y4" secondAttribute="bottom" constant="20" id="Mt0-w2-bMN"/>
+                            <constraint firstItem="msp-gE-6Y4" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="ZES-mD-OiZ"/>
+                            <constraint firstItem="whU-nD-N9n" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="fKC-GG-sT0"/>
+                            <constraint firstItem="msp-gE-6Y4" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="10" id="y1o-fq-pPt"/>
                         </constraints>
                     </view>
                 </viewController>
